@@ -10,7 +10,7 @@ class Statistika extends CI_Controller {
 		$this->load->database();
 	}
 
-	/*This is index function, if user is loged in load function racun data  */
+	/*This is index function, if user is loged in call function racun data  */
     public function index()
     {
     	$r_exist=$this->main->racun_exists();
